@@ -5,7 +5,7 @@ include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
 include(CMakePrintHelpers)
 
-option(BUILD_TESTS "Build unit tests" ON)
+option(BUILD_TESTS "Build unit tests" OFF)
 
 set(libInterpolate_VERSION
     "UNKNOWN"
